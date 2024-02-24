@@ -1,0 +1,9 @@
+[workspace]
+[package]
+version = "0.1.0"
+name = "lc3-sp1-pv-program"
+edition = "2021"
+
+[dependencies]
+sp1-zkvm = { git = "https://github.com/succinctlabs/sp1.git" }
+lc3-zk-vm = { git = "https://github.com/manojkgorle/lc3.git" }
